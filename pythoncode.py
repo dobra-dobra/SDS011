@@ -34,7 +34,7 @@ try:
             tail = s[7]
             # Check if data tail is correct
             if s[7] == int("AB",16):
-                # Calculate check sum vale
+                # Calculate check sum value
                 check = (s[0] + s[1] + s[2] + s[3] + s[4] + s[5]) % 256
                 # # Check if check sum is correct
                 if check == cs:
